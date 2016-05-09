@@ -2,19 +2,6 @@
 {
     "repositories": [
         {
-            "type": "composer",
-            "url": "http://packages.example.com"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.example.com",
-            "options": {
-                "ssl": {
-                    "verify_peer": "true"
-                }
-            }
-        },
-        {
             "type": "vcs",
             "url": "https://github.com/Seldaek/monolog"
         },
