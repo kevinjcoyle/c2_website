@@ -1,30 +1,7 @@
 
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Seldaek/monolog"
-        },
-        {
-            "type": "pear",
-            "url": "https://pear2.php.net"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "smarty/smarty",
-                "version": "3.1.7",
-                "dist": {
-                    "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://smarty-php.googlecode.com/svn/",
-                    "type": "svn",
-                    "reference": "tags/Smarty_3_1_7/distribution/"
-                }
-            }
-        }
-    ]
+    "require": {
+        "PasswordLib/PasswordLib": "*"
+    }
 }
 
