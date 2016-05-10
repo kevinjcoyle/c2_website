@@ -1,7 +1,7 @@
 
 {
     "require": {
-        "PasswordLib/PasswordLib": "*"
+        "PasswordLib/PasswordLib": "1.0.0-beta1"
     }
 }
 
