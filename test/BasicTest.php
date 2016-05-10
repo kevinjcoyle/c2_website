@@ -10,5 +10,8 @@
 namespace SebastianBergmann\Money;
 class BasicTest extends \PHPUnit_Framework_TestCase
 {
-    
+    public function testNothing()
+    {
+        $this->assertEquals(1,1);
+    }
 }
