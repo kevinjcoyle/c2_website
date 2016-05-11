@@ -54,6 +54,10 @@
       }
     );
   });
+
+            function loadNewData() {
+            	$('#thumb-list').load('pages/data.html');
+            }
   </script>
    
   </style>
@@ -136,7 +140,7 @@
 						  </div>
 						  <div class="ad-nav">
 							<div class="ad-thumbs">
-							  <ul class="ad-thumb-list">
+							  <ul class="ad-thumb-list" id="thumb-list">
 								<li>
 								  <a href="images/gallery/show/Zan2.jpg">
 									<img src="images/gallery/show/thumbs/Zan2.jpg" class="image0">
@@ -217,6 +221,7 @@
                 </div>  
                 <div class="gradient"></div>  
             </div>
+            <a href="javascript:void()" onclick="loadNewData()">LoadNewData</a>
 
         </div>
     </body>
