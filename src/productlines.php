@@ -99,7 +99,7 @@
 											<img class="productLineLogo" src="images/Pacific Green Logo.png" alt="Pacific Green" />
 										</a>
 			     					</td>
-				     				<td colspan="2" align="center">
+				     				<td colspan="1" align="center">
 					         			<a href="http://www.assaabloy.ca/" target="_blank">
 											<img class="productLineLogo" src="images/Assa Abloy Logo.png" alt="Assa Abloy" />
 										</a>
@@ -126,14 +126,9 @@
 											<img class="productLineLogo" src="images/Dimond Logo.png" alt="Dimond" />
 										</a>
 									</td>
-									<td align="center">
-										<a href="http://www.dimondlighting.com/eSource/items/items-3-S0-lV1HGTV-lV2all-lV3all.aspx?store=DIMOND" target="_blank">
-											<img class="productLineLogo" src="images/HGTV Logo.png" alt="HGTV" />
-										</a>
-									</td>
 								</tr>
 								<tr>
-									<td colspan="4" align="center">
+									<td colspan="3" align="center">
 										<a href="http://www.adivik.com/" target="_blank">
 											<img class="productLineLogo" src="images/Adivik Linen Logo.png" alt="Adivik Linen Company" />
 										</a>
