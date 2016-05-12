@@ -56,7 +56,7 @@
   });
 
             function loadNewData() {
-            	$('#thumb-list').load('pages/data.html');
+            	$('#thumb-list').load('pages/data.html, #thumb-list');
             }
   </script>
    
