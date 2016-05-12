@@ -4,10 +4,6 @@ $agent=@$_SERVER[HTTP_USER_AGENT];
 $ip=@$_SERVER['REMOTE_ADDR'];
 $tracking_page_name2 = $_SERVER["SCRIPT_NAME"];
 $tracking_page_name = $_SERVER['SERVER_NAME'];
-$json = json_decode(get_remote_data("http://www.geoplugin.net/json.gp?ip=:ip"),true);
-
-print $json->geoplugin_city;
-
 if (strlen($ref) == 0) {
     $ref = 'NO REFFERRER';
 }
@@ -23,25 +19,6 @@ $sql->bindParam(':tracking_page_name',$tracking_page_name2,PDO::PARAM_STR, 100);
 $sql->bindParam(':tracking_page_code',$tracking_page_name,PDO::PARAM_STR, 100);
 
 $sql->execute();
-
-
-//See Updates and explanation at: https://github.com/tazotodua/useful-php-scripts/
-
-    function get_remote_data($url) {
-       // create curl resource 
-        $ch = curl_init(); 
-
-        // set url 
-        curl_setopt($ch, CURLOPT_URL, $url); 
-
-        //return the transfer as a string 
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-
-        // $output contains the output string 
-        $output = curl_exec($ch); 
-
-        // close curl resource to free up system resources 
-        curl_close($ch);  
 }
 
 ?>
