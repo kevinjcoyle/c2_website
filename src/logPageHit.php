@@ -51,8 +51,8 @@ $sql->execute();
     $status = curl_getinfo($c);
     curl_close($c);
     preg_match('/(http(|s)):\/\/(.*?)\/(.*\/|)/si', $status['url'], $link);
-    $data = preg_replace('/(src|href|action)=(\'|\")((?!(http|https|javascript:|\/\/|\/)).*?)(\'|\")/si', '$1=$2' . $link[0] . '$3$4$5', $data);
-    $data = preg_replace('/(src|href|action)=(\'|\")((?!(http|https|javascript:|\/\/)).*?)(\'|\")/si', '$1=$2' . $link[1] . '://' . $link[3] . '$3$4$5', $data);
+ //   $data = preg_replace('/(src|href|action)=(\'|\")((?!(http|https|javascript:|\/\/|\/)).*?)(\'|\")/si', '$1=$2' . $link[0] . '$3$4$5', $data);
+ //   $data = preg_replace('/(src|href|action)=(\'|\")((?!(http|https|javascript:|\/\/)).*?)(\'|\")/si', '$1=$2' . $link[1] . '://' . $link[3] . '$3$4$5', $data);
     if ($status['http_code'] == 200) {
         return $data;
     } elseif ($status['http_code'] == 301 || $status['http_code'] == 302) {
