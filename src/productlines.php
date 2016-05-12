@@ -94,7 +94,7 @@
                                 <!-- InstanceBeginEditable name="infoArea" -->
 								<table>
 								  <tr>
-     								<td>
+     								<td align="center">
 	         							<a href="http://www.pacificgreen.net" target="_blank">
 											<img class="productLineLogo" src="images/Pacific Green Logo.png" alt="Pacific Green" />
 										</a>
@@ -104,24 +104,24 @@
 											<img class="productLineLogo" src="images/Assa Abloy Logo.png" alt="Assa Abloy" />
 										</a>
 							    	</td>
-								    <td>
+								    <td align="center">
          								<a href="http://www.thegooddesignstudio.com/" target="_blank">
 											<img class="productLineLogo" src="images/Good Design Studio Logo.png" alt="The Good Design Studio" />
 										</a>
      								</td>
 	   							</tr>
 								<tr>
-									<td>
+									<td align="center">
 										<a href="http://www.nulcolighting.com/" target="_blank">
 											<img class="productLineLogo" src="images/ELK Logo.png" alt="ELK" />
 										</a>
 									</td>
-									<td>
+									<td align="center">
 										<a href="http://www.mysterlinghome.com/" target="_blank">
 											<img class="productLineLogo" src="images/Sterling Logo.png" alt="Sterling"/>
 										</a>
 									</td>
-									<td>
+									<td align="center">
 										<a href="http://www.dimondlighting.com/" target="_blank">
 											<img class="productLineLogo" src="images/Dimond Logo.png" alt="Dimond" />
 										</a>
